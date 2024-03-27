@@ -12,6 +12,7 @@
 		72B659472BB48C62002E1DC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B659462BB48C62002E1DC6 /* ViewController.swift */; };
 		72B6594C2BB48C70002E1DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B6594B2BB48C70002E1DC6 /* Assets.xcassets */; };
 		72B6594F2BB48C70002E1DC6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 72B6594E2BB48C70002E1DC6 /* Base */; };
+		72B6595A2BB49653002E1DC6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B659592BB49653002E1DC6 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		72B6594B2BB48C70002E1DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72B6594E2BB48C70002E1DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B659502BB48C70002E1DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B659592BB49653002E1DC6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Model.swift; path = "IOS12-HomeWork14/Model/Model.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		72B659412BB48C62002E1DC6 /* IOS12-HomeWork14 */ = {
 			isa = PBXGroup;
 			children = (
+				72B6595B2BB49664002E1DC6 /* Model */,
 				72B659562BB48F0C002E1DC6 /* App */,
 				72B659572BB48F25002E1DC6 /* Sources */,
 				72B659582BB48F4B002E1DC6 /* Resources */,
@@ -86,6 +89,14 @@
 				72B6594D2BB48C70002E1DC6 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		72B6595B2BB49664002E1DC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72B659592BB49653002E1DC6 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				72B659472BB48C62002E1DC6 /* ViewController.swift in Sources */,
 				72B659432BB48C62002E1DC6 /* AppDelegate.swift in Sources */,
 				72B659452BB48C62002E1DC6 /* SceneDelegate.swift in Sources */,
+				72B6595A2BB49653002E1DC6 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
